@@ -15,7 +15,7 @@ const WeatherCard = ({ weather, forecast }) => {
       <p className="text-sm text-gray-500">{currentDate}</p>
       <div className="my-4">
         <img
-          className="mx-auto w-16"
+          className="mx-auto w-16 "
           src={`https://openweathermap.org/img/wn/${w[0].icon}@2x.png`}
           alt={w[0].description}
         />

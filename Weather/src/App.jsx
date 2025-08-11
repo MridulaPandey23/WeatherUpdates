@@ -6,7 +6,7 @@ function App() {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
 
-  const apiKey = "6fc9354392ec67d2668181d16a47dd84";
+  const apiKey = "e371b6ff32a66daee9d498eaa64e3ceb";
 
   const fetchWeather = async () => {
     if (!city) return;
@@ -34,8 +34,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-blue-400 flex items-center justify-center p-4">
-      <div className="bg-white/90 rounded-2xl p-6 w-full max-w-md shadow-xl">
+    <div className="min-h-screen bg-[url(/weathr.jpg)] bg-cover flex items-center justify-center p-4">
+      <div className="bg-gray-200 rounded-2xl p-6 w-full max-w-md shadow-[0_10px_20px_rgba(0,0,0,0.5),0_6px_6px_rgba(0,0,0,0.4)]">
+ 
         <input
           type="text"
           placeholder="Enter city name"
